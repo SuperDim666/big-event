@@ -19,7 +19,6 @@
     - [Article Category Management](#article-category-management)
     - [Article Management](#article-management)
     - [User Information Management](#user-information-management)
-- [License](#license)
 - [Contact](#contact)
 
 ---
