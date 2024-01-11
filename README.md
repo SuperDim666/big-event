@@ -126,11 +126,6 @@ The main interface consists of 3 primary management sections:
 
 ---
 
-## License
-This project is ***public but not open source***. The code and other materials are available for viewing and fork, but not for modification or commercial use without express permission from the author.
-
----
-
 ## Contact
 **Name**: Zixiang Xu  
 **Email**: [1250105753@qq.com](mailto:1250105753@qq.com)  
