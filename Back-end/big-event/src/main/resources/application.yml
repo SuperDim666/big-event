@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: A7g@4M!x%1bQ
+  data:
+    redis:
+      host: localhost
+      port: 6379
+mybatis:
+  configuration:
+    # enable MyBatis screening of camel-case name ("MyData" from "my_data")
+    map-underscore-to-camel-case: true
+server:
+  port: 8080

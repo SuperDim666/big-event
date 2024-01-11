@@ -1,0 +1,107 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,com.github.pagehelper.page.PageMethod,startPage" />
+    </inspection_tool>
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="org.glassfish.jaxb:jaxb-runtime" />
+          <option value="com.aliyun.oss:aliyun-sdk-oss" />
+          <option value="javax.xml.bind:jaxb-api" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="iter" />
+          <option value="len" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.append" />
+          <option value="matrix_stack.identity_matrix" />
+          <option value="list.clear" />
+          <option value="main.color" />
+          <option value="main.sqrt" />
+          <option value="main.mouseX" />
+          <option value="main.mouseY" />
+          <option value="main.width" />
+          <option value="main.height" />
+          <option value="main.radians" />
+          <option value="main.tan" />
+          <option value="main.key" />
+          <option value="main.frameRate" />
+          <option value="main.colorMode" />
+          <option value="main.RGB" />
+          <option value="main.noStroke" />
+          <option value="main.size" />
+          <option value="main.Processing3" />
+          <option value="routines.sqrt" />
+          <option value="None" />
+          <option value="main.PMatrix3D" />
+          <option value="main.OPENGL" />
+          <option value="main.background" />
+          <option value="main.PI" />
+          <option value="main.perspective" />
+          <option value="main.camera" />
+          <option value="main.ambientLight" />
+          <option value="main.directionalLight" />
+          <option value="main.lightSpecular" />
+          <option value="main.pushMatrix" />
+          <option value="main.stroke" />
+          <option value="main.fill" />
+          <option value="main.ambient" />
+          <option value="main.specular" />
+          <option value="main.shininess" />
+          <option value="main.applyMatrix" />
+          <option value="main.beginShape" />
+          <option value="main.vertex" />
+          <option value="main.endShape" />
+          <option value="main.CLOSE" />
+          <option value="main.popMatrix" />
+          <option value="main.beginMatrix" />
+          <option value="main.translate" />
+          <option value="main.sphere" />
+          <option value="list.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="big-event" />
+          <option value="big-event" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.apache.httpcomponents:httpclient:4.4.1" />
+          <option value="org.codehaus.jettison:jettison:1.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
